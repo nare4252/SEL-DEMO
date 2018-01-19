@@ -1,0 +1,31 @@
+Collections represent a single unit of objects.
+Framework provides readymade architecture
+Collection framework means it is a unified architecture for storing and manipulating the objects.
+It has
+-> Interfaces and implementations and classes
+->Algorithem.
+
+Classes:-
+
+Array list
+Linked list
+Vector
+Stack
+Array deque
+Priority queue
+Hash set
+Linked hash set
+Tree set
+
+Interfaces:-
+
+Iterable
+Collection
+List
+Queue
+Set
+Dequeue
+Sorted set
+
+Methods of Collection interface 
+public boolean add(
