@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 public class Fileinputstream_Two {
 
 	public static void main(String[] args) throws IOException {
-		// String string = "C:\\Users\\nare4\\Desktop\\output.txt";
+		
 		
 
 		File file = new File("C:/robots.txt");
