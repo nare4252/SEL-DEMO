@@ -12,12 +12,7 @@ public class Fileinputstream_Two {
 
 	public static void main(String[] args) throws IOException {
 		// String string = "C:\\Users\\nare4\\Desktop\\output.txt";
-		//
-		// Stream<String> stream = Files.lines(Paths.get(string));
-		//
-		// stream.forEach(System.out::println);
-		//
-		// }
+		
 
 		File file = new File("C:/robots.txt");
 
