@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22105" started-at="2018-01-23T17:37:14Z" finished-at="2018-01-23T17:37:36Z">
+  <suite name="Default suite" duration-ms="43643" started-at="2018-01-23T18:23:34Z" finished-at="2018-01-23T18:24:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22105" started-at="2018-01-23T17:37:14Z" finished-at="2018-01-23T17:37:36Z">
+    <test name="Default test" duration-ms="43643" started-at="2018-01-23T18:23:34Z" finished-at="2018-01-23T18:24:18Z">
       <class name="data.driven.ReadDataFromApachePOI">
-        <test-method status="PASS" signature="initilization()[pri:0, instance:data.driven.ReadDataFromApachePOI@d2cc05a]" name="initilization" is-config="true" duration-ms="22023" started-at="2018-01-23T23:07:14Z" finished-at="2018-01-23T23:07:36Z">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:data.driven.ReadDataFromApachePOI@d2cc05a]" name="initilization" is-config="true" duration-ms="26964" started-at="2018-01-23T23:53:34Z" finished-at="2018-01-23T23:54:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method status="FAIL" signature="fbLogin()[pri:0, instance:data.driven.ReadDataFromApachePOI@d2cc05a]" name="fbLogin" duration-ms="22" started-at="2018-01-23T23:07:36Z" finished-at="2018-01-23T23:07:36Z">
+        <test-method status="FAIL" signature="fbLogin()[pri:0, instance:data.driven.ReadDataFromApachePOI@d2cc05a]" name="fbLogin" duration-ms="16496" started-at="2018-01-23T23:54:01Z" finished-at="2018-01-23T23:54:17Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at data.driven.ReadDataFromApachePOI.fbLogin(ReadDataFromApachePOI.java:47)
+	at data.driven.ReadDataFromApachePOI.fbLogin(ReadDataFromApachePOI.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

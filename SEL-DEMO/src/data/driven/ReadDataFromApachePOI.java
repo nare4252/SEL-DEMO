@@ -44,13 +44,14 @@ public class ReadDataFromApachePOI extends Configuration{
 	public void fbLogin() throws Exception{
 		File file = new File("C:\\Users\\nare4\\Desktop\\Test\\poi.xlsx");
 		FileInputStream fileInputStream = new FileInputStream(file);
+		workbook = new XSSFWorkbook(fileInputStream);
 		sheet = workbook.getSheetAt(0);
 		for (int i = 1; i <= sheet.getLastRowNum(); i++) {
 			cell = sheet.getRow(i).getCell(0);
 			cell.setCellType(cell.CELL_TYPE_STRING);
-			driver.findElement(By.xpath("//input[@id='identifierId' and @class='whsOnd zHQkBf']")).sendKeys(cell.getStringCellValue());
-			driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();			
-			
+			driver.findElement(By.xpath(".//*[@id='identifierId']")).clear();
+			driver.findElement(By.xpath(".//*[@id='identifierId']")).sendKeys(cell.getStringCellValue());
+			driver.findElement(By.xpath(".//*[@id='identifierNext']/content")).click();
 			
 		}
 	}
