@@ -17,13 +17,13 @@ public class DownloadUsingRobotClass extends Configuration {
 		chromeProperty();
 		
 		//set location
-		StringSelection selection = new StringSelection("C:\\Users\\nare4\\Desktop\\Tickets\\25-01-2018.pdf");
+		StringSelection selection = new StringSelection("C:\\Users\\nare4\\Desktop\\UST_Cunix_CMMI_WeeklyMeet_MoM_04Dec17 (Autosaved)");
 		
 		//copy to clipboard
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
 		
-		driver.get("file:///C:/Users/nare4/Desktop/NARE.html");
-		driver.findElement(By.xpath("//input[@id='1' or name='resumeupload']"))
+		driver.get("file:///C:/Users/nare4/Desktop/hello.html");
+		driver.findElement(By.xpath(".//*[@id='file']"))
 				.click();
 		
 		//Robot class

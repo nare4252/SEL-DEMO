@@ -35,4 +35,14 @@ public class Configuration {
 		System.setProperty(chromeDriver, pathChrome);
 		driver = new ChromeDriver();
 	}
+	
+	public void chromeOffice() {
+		System.setProperty(chromeDriver, chromeDriverOffice);
+		driver = new FirefoxDriver();
+	}
+	
+	public void firefoxOffice() {
+		System.setProperty(geckoDriver, geckoDriverOffice);
+		driver = new FirefoxDriver();
+	}
 }
