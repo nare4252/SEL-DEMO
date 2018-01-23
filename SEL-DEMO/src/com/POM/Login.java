@@ -7,6 +7,7 @@ import com.annotations.Configuration;
 
 public class Login extends Configuration{
 	
+	// Declaring 
 	By userID = By.xpath("");
 	By userPass = By.xpath("");
 	By titleText = By.xpath("");
