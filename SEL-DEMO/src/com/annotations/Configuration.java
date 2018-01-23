@@ -9,11 +9,11 @@ public class Configuration {
 	
 	//Firefox Driver
 	String firefoxDriver = "webdriver.firefox.marionette";
-	String geckoDriver = "D:\\Softwares\\geckodriver-v0.15.0-win64\\geckodriver.exe";
+	String geckoDriver = "C:\\Users\\ustuser\\Desktop\\Test\\geckodriver-v0.15.0-win64\\geckodriver.exe";
 	
 	//Chrome Driver
 	String chromeDriver = "webdriver.chrome.driver";
-	String pathChrome = "D:\\Softwares\\chromedriver.exe";
+	String pathChrome = "C:\\Users\\ustuser\\Desktop\\Test\\chromedriver.exe";
 	
 	//Web Driver
 	public WebDriver driver;
