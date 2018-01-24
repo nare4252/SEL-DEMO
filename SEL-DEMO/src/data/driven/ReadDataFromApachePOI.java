@@ -42,7 +42,8 @@ public class ReadDataFromApachePOI extends Configuration{
 	
 	@Test
 	public void fbLogin() throws Exception{
-		File file = new File("C:\\Users\\nare4\\Desktop\\Test\\poi.xlsx");
+//		File file = new File("C:\\Users\\nare4\\Desktop\\Test\\poi.xlsx");
+		File file = new File("");
 		FileInputStream fileInputStream = new FileInputStream(file);
 		workbook = new XSSFWorkbook(fileInputStream);
 		sheet = workbook.getSheetAt(0);
