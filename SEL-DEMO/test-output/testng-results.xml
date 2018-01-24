@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47731" started-at="2018-01-24T05:50:55Z" finished-at="2018-01-24T05:51:42Z">
+  <suite name="Default suite" duration-ms="16991" started-at="2018-01-24T05:53:36Z" finished-at="2018-01-24T05:53:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47731" started-at="2018-01-24T05:50:55Z" finished-at="2018-01-24T05:51:42Z">
+    <test name="Default test" duration-ms="16991" started-at="2018-01-24T05:53:36Z" finished-at="2018-01-24T05:53:53Z">
       <class name="com.annotations.Annotations">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.annotations.Annotations@58651fd0]" name="launchBrowser" is-config="true" duration-ms="45558" started-at="2018-01-24T11:20:55Z" finished-at="2018-01-24T11:21:40Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.annotations.Annotations@4520ebad]" name="launchBrowser" is-config="true" duration-ms="14894" started-at="2018-01-24T11:23:36Z" finished-at="2018-01-24T11:23:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testTitle()[pri:0, instance:com.annotations.Annotations@58651fd0]" name="testTitle" duration-ms="77" started-at="2018-01-24T11:21:40Z" finished-at="2018-01-24T11:21:40Z">
+        <test-method status="PASS" signature="testTitle()[pri:0, instance:com.annotations.Annotations@4520ebad]" name="testTitle" duration-ms="44" started-at="2018-01-24T11:23:51Z" finished-at="2018-01-24T11:23:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitle -->
-        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.annotations.Annotations@58651fd0]" name="terminateBrowser" is-config="true" duration-ms="2027" started-at="2018-01-24T11:21:40Z" finished-at="2018-01-24T11:21:42Z">
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.annotations.Annotations@4520ebad]" name="terminateBrowser" is-config="true" duration-ms="2017" started-at="2018-01-24T11:23:51Z" finished-at="2018-01-24T11:23:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
