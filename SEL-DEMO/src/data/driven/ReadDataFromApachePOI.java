@@ -12,9 +12,11 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
@@ -33,6 +35,7 @@ public class ReadDataFromApachePOI {
 	XSSFSheet sheet;
 	XSSFCell cell;
 	WebDriver driver;
+	JavascriptExecutor executor = (JavascriptExecutor) driver;
 	
 	@BeforeTest
 	public void initilization(){
@@ -65,8 +68,9 @@ public class ReadDataFromApachePOI {
 			driver.findElement(By.xpath("//span[@class='gb_ab gbii']")).click();
 			Thread.sleep(3000);
 			driver.findElement(By.xpath(".//*[@id='gb_71']")).click();
-			driver.findElement(By.cssSelector(".iUe6Pd.Us7fWe.JhUD8d")).click();
-			driver.findElement(By.xpath(".//*[@id='identifierLink']")).click();
+			WebElement element = driver.findElement(By.className("//div[@class='mUbCce fKz7Od YYBxpf KEavsb M9Bg4d']"));
+			executor.executeScript("arguments[0].click()", element);
+			
 			
 			
 		}

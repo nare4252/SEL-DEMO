@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="data.driven.ReadDataFromApachePOI">
+      <class name="com.student.TestStudentAttendance">
         <methods>
-          <include name="gmailLogin"/>
-          <include name="screenShotOfFailedTestCase"/>
-          <include name="initilization"/>
+          <include name="studentResult"/>
         </methods>
-      </class> <!-- data.driven.ReadDataFromApachePOI -->
+      </class> <!-- com.student.TestStudentAttendance -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
