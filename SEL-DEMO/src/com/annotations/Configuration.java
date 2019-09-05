@@ -38,7 +38,7 @@ public class Configuration {
 	
 	public void chromeOffice() {
 		System.setProperty(chromeDriver, chromeDriverOffice);
-		driver = new FirefoxDriver();
+		driver = new ChromeDriver();
 	}
 	
 	public void firefoxOffice() {

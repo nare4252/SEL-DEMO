@@ -5,7 +5,8 @@
     <classes>
       <class name="data.driven.ReadDataFromApachePOI">
         <methods>
-          <include name="fbLogin"/>
+          <include name="gmailLogin"/>
+          <include name="screenShotOfFailedTestCase"/>
           <include name="initilization"/>
         </methods>
       </class> <!-- data.driven.ReadDataFromApachePOI -->
